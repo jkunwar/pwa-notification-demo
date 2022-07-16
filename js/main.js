@@ -56,12 +56,12 @@ sendBtn.addEventListener('click', () => {
             {
                 action: 'agree',
                 title: 'Agree',
-                icon: '/notificationDemo/images/tick.png'
+                icon: '/pwa-notification-demo/images/tick.png'
             },
             {
                 action: 'disagree',
                 title: 'Diagree',
-                icon: '/notificationDemo/images/cross.png'
+                icon: '/pwa-notification-demo/images/cross.png'
             }
         ]
     }
