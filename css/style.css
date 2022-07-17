@@ -57,3 +57,7 @@ input {
 .disabled {
     background-color: #dbe0e9;
 }
+
+.invalid {
+    color: rgb(185, 29, 29);
+}

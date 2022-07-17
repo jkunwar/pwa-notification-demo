@@ -47,7 +47,15 @@ function requestPermission() {
 
 const sendBtn = document.getElementById('send');
 sendBtn.addEventListener('click', () => {
+    const titleError = document.getElementsByClassName('title-error')[0]
+    titleError.innerHTML = ''
+
     const title = document.getElementsByName('title')[0].value
+    if (!title) {
+        titleError.innerHTML = 'Title is required'
+        return
+    }
+
     const body = document.getElementsByName('body')[0].value
 
     const options = {
